@@ -10,6 +10,8 @@ builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=ProniaDb;trusted_connection=true;integrated security=true;TrustServerCertificate=true;");
 });
 
+
+
 var app = builder.Build();
 
 app.UseStaticFiles();
