@@ -16,17 +16,17 @@ namespace ProniaMVCProject.Controllers
             _context = context;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             //include-icinde reletional propertisi olan tablelerin datalarini getrmek ucun hemin table ile join edir.
             HomeVM homeVM = new HomeVM()
             {
-                Slides = _context.Slides.OrderBy(s => s.Order).Take(2).ToList(),
-                Products = _context
+                Slides = await _context.Slides.OrderBy(s => s.Order).Take(2).ToListAsync(),
+                Products = await _context
                 .Products
                 .Take(4)
                 .Include(p => p.ProductImage.Where(pi => pi.IsPrimary != null))
-                .ToList()
+                .ToListAsync()
             };
 
 
