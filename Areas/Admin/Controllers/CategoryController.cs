@@ -5,6 +5,8 @@ using ProniaMVCProject.Models;
 
 namespace ProniaMVCProject.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+
     public class CategoryController : Controller
     {
         private readonly AppDbContext _context;
@@ -13,7 +15,6 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         {
             _context = context;
         }
-        [Area("Admin")]
 
         public async Task<IActionResult> Index()
         {
@@ -21,5 +22,68 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
 
             return View(categories);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Create(Category category)
+        {
+            if (!ModelState.IsValid) return View();
+
+            bool result = await _context.Categories.AnyAsync(c => c.Name == category.Name);
+
+            if (result)
+            {
+                ModelState.AddModelError(nameof(category.Name), $"{category.Name} Already Exist");
+                return View();
+            }
+
+            category.CreatedAt = DateTime.Now;
+
+            await _context.Categories.AddAsync(category);
+            await _context.SaveChangesAsync();
+
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
+        public async Task<IActionResult> Update(int? id)
+        {
+            if (id is null || id <= 0) return BadRequest();
+
+            Category? category = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (category is null) return NotFound();
+
+            return View(category);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Update(int? id, Category category)
+        {
+            if (!ModelState.IsValid) return View();
+
+
+            bool result = await _context.Categories.AnyAsync(c => c.Name == category.Name && c.Id != id);
+
+            if (result)
+            {
+                ModelState.AddModelError(nameof(category.Name), $"{category.Name} named category already exist");
+                return View();
+            }
+
+            Category? existed = await _context.Categories.FirstOrDefaultAsync(c => c.Id == id);
+
+            if (existed.Name == category.Name) return RedirectToAction(nameof(Index));
+
+            existed.Name = category.Name;
+            await _context.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+        }
+
+
     }
 }

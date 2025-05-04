@@ -1,4 +1,4 @@
-﻿@model List<Category>
+﻿@model List<Size>
 @{
     int count = 0;
 }
@@ -7,7 +7,7 @@
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title">Categories</h4>
+                <h4 class="card-title">Sizes</h4>
                 <div class="table-responsive">
                     <table class="table table-striped">
                         <thead>
@@ -18,9 +18,7 @@
                                 <th>
                                     Name
                                 </th>
-                                <th>
-                                    Products Count
-                                </th>
+                               
                                 <th>
                                     Date
                                 </th>
@@ -30,7 +28,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                           @foreach (Category category in Model)
+                            @foreach (Size size in Model)
                             {
                                 count++;
                                 <tr>
@@ -38,21 +36,17 @@
                                         @count
                                     </td>
                                     <td>
-                                        @category.Name
+                                        @size.Name
                                     </td>
                                     <td>
-                                        @category.Products.Count
+                                        @size.CreatedAt
                                     </td>
                                     <td>
-                                        @* @category.CreatedAt.ToString("d-MMMM-yyyy") *@
-                                        @category.CreatedAt
+                                        <a asp-action="update" asp-route-id="@size.Id" class="btn btn-warning"><i class="mdi mdi-pencil"></i></a>
+                                        <a asp-action="delete" asp-route-id="@size.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i></a>
+                                        <a asp-action="detail" asp-route-id="@size.Id" class="btn btn-primary"><i class="mdi mdi-open-in-new"></i></a>
                                     </td>
-                                    <td>
-                                        <a asp-action="update" asp-route-id="@category.Id" class="btn btn-warning"><i class="mdi mdi-pencil"></i></a>
-                                        <a asp-action="delete" asp-route-id="@category.Id" class="btn btn-danger"><i class="mdi mdi-delete"></i></a>
-                                        <a asp-action="detail" asp-route-id="@category.Id" class="btn btn-primary"><i class="mdi mdi-open-in-new"></i></a>
-                                    </td>
-                            </tr>
+                                </tr>
                             }
 
                         </tbody>
