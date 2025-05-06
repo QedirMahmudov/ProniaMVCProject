@@ -929,6 +929,10 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1.png"
     },
     {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp"
+    },
+    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\2-1-370x270.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2-1-370x270.webp"
     },
@@ -953,28 +957,12 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\20d8f892-8855-455b-acea-9292ea3df086.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\20d8f892-8855-455b-acea-9292ea3df086.webp"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\29e4da93-890a-48fb-9796-0964777d80ecslideflower.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\29e4da93-890a-48fb-9796-0964777d80ecslideflower.webp"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\8ad8d568-11ea-41f5-a84f-dc64c8cb0e90slideflower2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\8ad8d568-11ea-41f5-a84f-dc64c8cb0e90slideflower2.jpg"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\Alaska.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\Alaska.webp"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\a4ccc233-a79f-4802-99a9-d8c07634f9c7slideflower.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\a4ccc233-a79f-4802-99a9-d8c07634f9c7slideflower.webp"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\car.png",
@@ -1011,18 +999,6 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\service.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\service.png"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\slideflower.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\slideflower.webp"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\slideflower2.jpg",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\slideflower2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\slideflower3webp.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\slideflower3webp.webp"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\tulpan.webp",

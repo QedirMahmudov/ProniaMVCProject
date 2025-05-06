@@ -2,6 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using ProniaMVCProject.DAL;
 using ProniaMVCProject.Models;
+using ProniaMVCProject.Utilities.Enums;
+using ProniaMVCProject.Utilities.Extensions;
+using ProniaMVCProject.ViewModels;
 
 namespace ProniaMVCProject.Areas.Admin.Controllers
 {
@@ -19,8 +22,20 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<Slide> slides = await _context.Slides.ToListAsync();
-            return View(slides);
+            List<GetSlideVM> slideVMs = await _context.Slides.Select(s =>
+                new GetSlideVM
+                {
+                    Id = s.Id,
+                    Title = s.Title,
+                    Order = s.Order,
+                    Image = s.Image,
+                    CreatedAt = s.CreatedAt,
+                }).ToListAsync();
+
+            return View(slideVMs);
+
+
+
         }
         public IActionResult Create()
         {
@@ -33,43 +48,40 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
         //    return string.Concat(Guid.NewGuid().ToString(), name.Substring(name.LastIndexOf(".")));
         //}
         [HttpPost]
-        public async Task<IActionResult> Create(Slide slide)
+        public async Task<IActionResult> Create(CreateSlideVM slideVM)
         {
 
-            if (!slide.Photo.ContentType.Contains("image/"))
+            if (!slideVM.Photo.ValidateType("image/"))
             {
-                ModelState.AddModelError(nameof(Slide.Photo), "File type is incorrect");
+                ModelState.AddModelError(nameof(CreateSlideVM.Photo), "File type is incorrect");
                 return View();
             }
 
-            if (slide.Photo.Length > 2 * 1024 * 1024)
+            if (!slideVM.Photo.ValidateSize(FlieSize.MB, 1))
             {
-                ModelState.AddModelError(nameof(Slide.Photo), "File size should be less than 2MB");
+                ModelState.AddModelError(nameof(CreateSlideVM.Photo), "File size should be less than 1MB");
                 return View();
             }
 
-            bool existingSlide = await _context.Slides.AnyAsync(s => s.Order == slide.Order);
-
-            if (existingSlide)
-            {
-                ModelState.AddModelError(nameof(Slide.Order), "choose another order");
-                return View();
-            }
 
             //_env.WebRoot-----> wwwroota qeder olan adresi yazdirir                fullname photo.jpg
             //                   her kompda isleyir  
 
-            string fileName = string.Concat(Guid.NewGuid().ToString(), slide.Photo.FileName.Substring(slide.Photo.FileName.LastIndexOf(".")));
-            string path = Path.Combine(_env.WebRootPath, "assets", "images", "website-images", fileName);
+            string filenName = await slideVM.Photo.CreateFileAsync(_env.WebRootPath, "assets", "images", "website-images");
 
 
-            FileStream fileStream = new FileStream(path, FileMode.Create);
-            //gonderilen phtonu yuxaridaki streamin adresine yukleyir
-            await slide.Photo.CopyToAsync(fileStream);
 
-            slide.Image = fileName;
+            Slide slide = new Slide()
+            {
+                Title = slideVM.Title,
+                SubTitle = slideVM.SubTitle,
+                Description = slideVM.Description,
+                Image = filenName,
+                Order = slideVM.Order,
+                CreatedAt = DateTime.Now
+            };
 
-            slide.CreatedAt = DateTime.Now;
+
             await _context.Slides.AddAsync(slide);
             await _context.SaveChangesAsync();
 
@@ -81,6 +93,14 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
 
 
 
+            //bool existingSlide = await _context.Slides.AnyAsync(s => s.Order == slide.Order);
+
+
+            //if (existingSlide)
+            //{
+            //    ModelState.AddModelError(nameof(Slide.Order), "choose another order");
+            //    return View();
+            //}
 
 
             //"assets\\images\\website-images\\" / lar ferqli olur deye / lardan uzaq durmaliyiq!
@@ -90,16 +110,6 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
 
             //                  slideflower.webp              image/webp                    63294
             //return Content(slide.Photo.FileName + " " + slide.Photo.ContentType + " " + slide.Photo.Length);
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -117,6 +127,22 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             //await _context.Slides.AddAsync(slide);
             //await _context.SaveChangesAsync();
             //return RedirectToAction(nameof(Index));
+        }
+
+
+        public async Task<IActionResult> Delete(int? id)
+        {
+            if (id is null || id <= 0) return BadRequest();
+
+            Slide? slide = await _context.Slides.FirstOrDefaultAsync(s => s.Id == id);
+
+            if (slide == null) return NotFound();
+
+            slide.Image.DeleteFile(_env.WebRootPath, "assets", "images", "website-images");
+
+            _context.Remove(slide);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
