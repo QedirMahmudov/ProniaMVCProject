@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2i/waSLD8VklyDEM8uz4u5TiGK44rcfDae28RY9u0BU=",
+  "Hash": "KA0zakKzuoqemLUM42k16hyjcBGsXuJNRuUin5hC/WE=",
   "Source": "ProniaMVCProject",
   "BasePath": "_content/ProniaMVCProject",
   "Mode": "Default",
@@ -4425,25 +4425,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1-9-270x300.jpg"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp",
-      "SourceId": "ProniaMVCProject",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\",
-      "BasePath": "_content/ProniaMVCProject",
-      "RelativePath": "assets/images/website-images/1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp"
-    },
-    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\2.png",
       "SourceId": "ProniaMVCProject",
       "SourceType": "Discovered",
@@ -4575,6 +4556,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp",
+      "SourceId": "ProniaMVCProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\",
+      "BasePath": "_content/ProniaMVCProject",
+      "RelativePath": "assets/images/website-images/69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\Alaska.webp",

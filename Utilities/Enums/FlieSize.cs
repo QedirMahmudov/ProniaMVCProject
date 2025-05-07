@@ -1,6 +1,6 @@
 ﻿namespace ProniaMVCProject.Utilities.Enums
 {
-    public enum FlieSize
+    public enum FileSize
     {
         KB,
         MB,

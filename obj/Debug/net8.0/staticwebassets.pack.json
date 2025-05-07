@@ -929,10 +929,6 @@
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\1.png"
     },
     {
-      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp",
-      "PackagePath": "staticwebassets\\assets\\images\\website-images\\1a92b01e-570c-43ef-b2cb-c1b17d4c92b8.webp"
-    },
-    {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\2-1-370x270.webp",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\2-1-370x270.webp"
     },
@@ -959,6 +955,10 @@
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\3.png",
       "PackagePath": "staticwebassets\\assets\\images\\website-images\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\website-images\\69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp"
     },
     {
       "Id": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\Alaska.webp",

@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\viewmodels\\slides\\getslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:viewmodels\\slides\\getslidevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\viewmodels\\product\\getproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:viewmodels\\product\\getproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:models\\slide.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:utilities\\extensions\\filevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 244,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,80 +42,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAoAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAqwC4AAABkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T21:24:36.633Z",
+              "WhenOpened": "2025-05-07T20:14:58.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GetSlideVM.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Slides\\GetSlideVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Slides\\GetSlideVM.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Slides\\GetSlideVM.cs",
-              "RelativeToolTip": "ViewModels\\Slides\\GetSlideVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAbAAAAAAAAAA==",
+              "Title": "GetProductVM.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Product\\GetProductVM.cs",
+              "RelativeDocumentMoniker": "ViewModels\\Product\\GetProductVM.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Product\\GetProductVM.cs",
+              "RelativeToolTip": "ViewModels\\Product\\GetProductVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:59:10.54Z",
+              "WhenOpened": "2025-05-07T20:08:40.892Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-06T20:53:54.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Slide.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Models\\Slide.cs",
-              "RelativeDocumentMoniker": "Models\\Slide.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Models\\Slide.cs",
-              "RelativeToolTip": "Models\\Slide.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T20:48:40.139Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SlideController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\SlideController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\SlideController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\SlideController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\SlideController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T19:03:50.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FileValidator.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Utilities\\Extensions\\FileValidator.cs",
-              "RelativeDocumentMoniker": "Utilities\\Extensions\\FileValidator.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Utilities\\Extensions\\FileValidator.cs",
-              "RelativeToolTip": "Utilities\\Extensions\\FileValidator.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-06T18:57:55.031Z",
+              "WhenOpened": "2025-05-07T20:06:07.033Z",
               "EditorCaption": ""
             }
           ]

@@ -8,15 +8,15 @@ namespace ProniaMVCProject.Utilities.Extensions
         {
             return file.ContentType.Contains(type);
         }
-        public static bool ValidateSize(this IFormFile file, FlieSize fileSize, int size)
+        public static bool ValidateSize(this IFormFile file, FileSize fileSize, int size)
         {
             switch (fileSize)
             {
-                case FlieSize.KB:
+                case FileSize.KB:
                     return file.Length <= size * 1024;
-                case FlieSize.MB:
+                case FileSize.MB:
                     return file.Length <= size * 1024 * 1024;
-                case FlieSize.GB:
+                case FileSize.GB:
                     return file.Length <= size * 1024 * 1024 * 1024;
             }
             return false;
