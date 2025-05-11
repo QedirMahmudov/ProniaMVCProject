@@ -1,20 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\viewmodels\\product\\getproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:viewmodels\\product\\getproductvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|c:\\users\\asus\\desktop\\folders\\proniamvcproject\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E3D266D1-9D06-41A8-9D31-DF104ADA6C54}|ProniaMVCProject.csproj|solutionrelative:areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -22,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 244,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,45 +26,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "RelativeToolTip": "Areas\\Admin\\Views\\Product\\Index.cshtml",
-              "ViewState": "AgIAABoAAAAAAAAAAAAqwC4AAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-07T20:14:58.318Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetProductVM.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Product\\GetProductVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\Product\\GetProductVM.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\ViewModels\\Product\\GetProductVM.cs",
-              "RelativeToolTip": "ViewModels\\Product\\GetProductVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T20:08:40.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwBQAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-07T20:06:07.033Z",
-              "EditorCaption": ""
             }
           ]
         },

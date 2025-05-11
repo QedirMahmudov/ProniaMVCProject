@@ -467,10 +467,10 @@
                                     <div class="product-img">
                                         <a asp-controller="shop" asp-action="detail" asp-route-id="@product.Id" class="product-name">
                                             <img class="primary-img"
-                                                 src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(x=>x.IsPrimary==true).Image"
+                                                 src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(x=>x.IsPrimary==true)?.Image"
                                                  alt="Product Images" />
                                             <img class="secondary-img"
-                                                 src="~/assets/images/website-images/1-10-270x300.jpg"
+                                                 src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(x=>x.IsPrimary==false)?.Image"
                                                  alt="Product Images" />
                                         </a>
                                         <div class="product-add-action">

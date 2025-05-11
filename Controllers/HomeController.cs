@@ -7,9 +7,7 @@ namespace ProniaMVCProject.Controllers
 {
     public class HomeController : Controller
     {
-
-
-        public readonly AppDbContext _context;
+        private readonly AppDbContext _context;
 
         public HomeController(AppDbContext context)
         {

@@ -158,7 +158,7 @@
                                                      src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(pi=>pi.IsPrimary == true).Image"
                                                      alt="Product Images" />
                                                 <img class="secondary-img"
-                                                     src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(pi=>pi.IsPrimary == false).Image"
+                                                     src="~/assets/images/website-images/@product.ProductImage.FirstOrDefault(pi=>pi.IsPrimary == false)?.Image"
                                                      alt="Product Images" />
                                             </a>
                                             <div class="product-add-action">

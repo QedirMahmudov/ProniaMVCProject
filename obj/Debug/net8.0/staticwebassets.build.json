@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KA0zakKzuoqemLUM42k16hyjcBGsXuJNRuUin5hC/WE=",
+  "Hash": "okZwY37R9nWjE7MbuqM5ANGHjmyKJOTl8N33I2Y7dD0=",
   "Source": "ProniaMVCProject",
   "BasePath": "_content/ProniaMVCProject",
   "Mode": "Default",
@@ -4577,6 +4577,25 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\69a944c4-cd35-4b0f-8fec-43d7d82c82d2.webp"
     },
     {
+      "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\8da9e03e-7925-4fa9-9082-7446134704f8.jpg",
+      "SourceId": "ProniaMVCProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\",
+      "BasePath": "_content/ProniaMVCProject",
+      "RelativePath": "assets/images/website-images/8da9e03e-7925-4fa9-9082-7446134704f8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\8da9e03e-7925-4fa9-9082-7446134704f8.jpg"
+    },
+    {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\Alaska.webp",
       "SourceId": "ProniaMVCProject",
       "SourceType": "Discovered",
@@ -4672,12 +4691,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\dark.png"
     },
     {
-      "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\kaktus.webp",
+      "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\e3072c7f-b380-4ce7-af7e-e74c5d402fc7.jpg",
       "SourceId": "ProniaMVCProject",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\",
       "BasePath": "_content/ProniaMVCProject",
-      "RelativePath": "assets/images/website-images/kaktus.webp",
+      "RelativePath": "assets/images/website-images/e3072c7f-b380-4ce7-af7e-e74c5d402fc7.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -4688,7 +4707,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\kaktus.webp"
+      "OriginalItemSpec": "wwwroot\\assets\\images\\website-images\\e3072c7f-b380-4ce7-af7e-e74c5d402fc7.jpg"
     },
     {
       "Identity": "C:\\Users\\ASUS\\Desktop\\Folders\\ProniaMVCProject\\wwwroot\\assets\\images\\website-images\\office.webp",
