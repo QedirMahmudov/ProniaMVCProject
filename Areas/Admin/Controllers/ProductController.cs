@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ProniaMVCProject.DAL;
 using ProniaMVCProject.Models;
@@ -9,7 +10,7 @@ using ProniaMVCProject.ViewModels;
 namespace ProniaMVCProject.Areas.Admin.Controllers
 {
     [Area("Admin")]
-
+    [Authorize(Roles = "Admin")] //bu controllere kecid etmek ucun istifadeci login olmalidir! //Controller Base atributdur hemde action base atributdur.(her 2sindede isletmek olur)
     public class ProductController : Controller
     {
         private readonly AppDbContext _context;
@@ -20,6 +21,7 @@ namespace ProniaMVCProject.Areas.Admin.Controllers
             _context = context;
             _env = env;
         }
+        //[Authorize]
         public async Task<IActionResult> Index()
         {
             List<GetProductVM> productVMs = await _context.Products.Select(p =>
